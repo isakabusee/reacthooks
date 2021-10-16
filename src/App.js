@@ -1,24 +1,39 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Input from './components/Input';
+import Content from './components/Content'
 
 function App() {
+  const [todos, setTodos] = useState([
+    {
+      text: 'Learn about hooks react',
+      isCompleted: false
+    },
+    {
+      text: 'Meet a friend for lunch',
+      isCompleted: false
+    },
+    {
+      text: 'Build a home',
+      isCompleted: false
+    },
+    {
+      text: 'Text someone',
+      isCompleted: false
+    }
+    
+  ])
   return (
+    <React.Fragment>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>It is time to master these hooks! Let's go Isaac</h1>
+      <Input />
+      <Content />
     </div>
+    <div>
+      <p>Something here</p>
+    </div>
+    </React.Fragment>
   );
 }
 
