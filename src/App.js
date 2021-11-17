@@ -1,11 +1,20 @@
-import {} from 'react';
-import ToggleButtonOnOff from "./components/ToggleButtonOnOff"
+import './App.css';
+import Counter from './components/Counter';
+import Input from './components/Input'
+import Fordata from './components/Fordata';
 
 
 function App() {
     return (
-        <ToggleButtonOnOff />
-    )
+    
+        <div className="App">
+           
+       < Counter />
+       < Input />
+       < Fordata />
+        </div>
+        
+    );
 
 }
 

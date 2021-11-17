@@ -15,28 +15,3 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-
-
-// const person = {
-//   name: "Isaac",
-//   walk() {
-//     console.log(this)
-//   }
-// };
-
-// person.walk();
-
-// const walk = person.walk.bind(person);
-// walk();
-
-// const square = number => number * number;
-// console.log(square(5));
-
-// const jobs = [
-//   { id: 1, isActive: true },
-//   { id: 2, isActive: true },
-//   { id: 3, isActive: false }
-// ];
-
-// // const activeJobs = jobs.filter(function(job){ return job.isActive; });
-// const activeJobs = jobs.filter(job => job.isActive);
