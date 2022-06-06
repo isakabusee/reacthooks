@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 
 const Fordata = () => {
-    const [users, setUsers] = useState({})
+    const [users, setUsers] = useState([])
     // const [myData, setMyData] = useState({})
 
     useEffect(() => {
@@ -28,7 +28,7 @@ const Fordata = () => {
             <label htmlFor="data">Data:</label><br />
             {!users && <textarea id="data" rows="12" cols="60" />}
             {users && (
-                <textarea id="data" row="12" cols="60" readOnly values={JSON.stringify(users)} />
+                <textarea id="data" row="12" cols="60" readOnly  values={JSON.stringify(users)} />
             )}
             <br />
             <button onClick={fetchUsers}>Load Data</button>

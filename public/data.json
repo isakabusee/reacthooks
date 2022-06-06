@@ -1,26 +1,14 @@
 {
-    "team1": {
-        "name": "Waffles",
-        "members": ["Jeremiah", "Robert", "Bryan", "Mike"]
+    "user1": {
+
+        "name": "Isaac",
+        "id": "2345",
+        "location": "San Jose"
     },
-    "team2": {
-        "name": "Wyclif",
-        "members": ["Jennifer", "Robert", "Bryan", "Mike"]
-    },
-    "team3": {
-        "name": "Enrique",
-        "members": ["Summan", "Robert", "Bryan", "Mike"]
-    },
-    "team4": {
-        "name": "Donut",
-        "members": ["Fanifa", "Robert", "Bryan", "Mike"]
-    },
-    "team5": {
-        "name": "Avocados",
-        "members": ["Hidaya", "Robert", "Bryan", "Mike"]
-    },
-    "team6": {
-        "name": "Oranges",
-        "members": ["Germain", "Robert", "Bryan", "Salam"]
+    "user2": {
+
+        "name": "Joseph",
+        "id": "2346",
+        "location": "San Francisco"
     }
 }
